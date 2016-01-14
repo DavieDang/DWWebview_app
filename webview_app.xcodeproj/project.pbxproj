@@ -13,6 +13,7 @@
 		047594281C453A9E00C46C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047594261C453A9E00C46C86 /* Main.storyboard */; };
 		0475942A1C453A9E00C46C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047594291C453A9E00C46C86 /* Assets.xcassets */; };
 		0475942D1C453A9E00C46C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0475942B1C453A9E00C46C86 /* LaunchScreen.storyboard */; };
+		047594361C453B9400C46C86 /* DWWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047594351C453B9400C46C86 /* DWWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		047594291C453A9E00C46C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0475942C1C453A9E00C46C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0475942E1C453A9E00C46C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047594341C453B9400C46C86 /* DWWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWWebViewController.h; sourceTree = "<group>"; };
+		047594351C453B9400C46C86 /* DWWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				047594211C453A9E00C46C86 /* AppDelegate.m */,
 				047594231C453A9E00C46C86 /* ViewController.h */,
 				047594241C453A9E00C46C86 /* ViewController.m */,
+				047594341C453B9400C46C86 /* DWWebViewController.h */,
+				047594351C453B9400C46C86 /* DWWebViewController.m */,
 				047594261C453A9E00C46C86 /* Main.storyboard */,
 				047594291C453A9E00C46C86 /* Assets.xcassets */,
 				0475942B1C453A9E00C46C86 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047594361C453B9400C46C86 /* DWWebViewController.m in Sources */,
 				047594251C453A9E00C46C86 /* ViewController.m in Sources */,
 				047594221C453A9E00C46C86 /* AppDelegate.m in Sources */,
 				0475941F1C453A9E00C46C86 /* main.m in Sources */,
@@ -301,6 +307,7 @@
 				047594331C453A9E00C46C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

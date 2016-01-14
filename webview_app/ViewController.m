@@ -7,16 +7,29 @@
 //
 
 #import "ViewController.h"
-
+#import "DWWebViewController.h"
 @interface ViewController ()
+
 
 @end
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)pushvc:(id)sender {
+    NSURL *url = [NSURL URLWithString:@"http://www.taobao.com"];
+    DWWebViewController *web = [[DWWebViewController alloc] initWithURL:url];
+    [self.navigationController pushViewController:web animated:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning {
